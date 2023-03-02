@@ -1,0 +1,113 @@
+/*HEADER*/
+
+.list-group-item {
+    --bs-list-group-border-color: transparent;
+    --bs-list-group-bg: transparent;
+}
+
+.list-group-item a {
+    color: white
+}
+
+.list-group-item a:hover {
+    color: lightblue
+}
+
+/*BANNER*/
+
+.banner {
+    background-image: url(./cardImageCenter.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55vh;
+    width: 100%;
+}
+
+.contenido-banner h1 {
+    color: white;
+    font-size: 75px;
+    font-weight: 400;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*Presentacion*/
+
+.presentacion {
+    padding: 50px;
+    display: flex;
+
+}
+
+.presentacion img {
+    border-radius: 100%;
+    padding-bottom: 30px;
+}
+
+/*Educacion*/
+
+.educacion .row {
+    --bs-gutter-x: 0rem;
+}
+
+.card {
+    display: flex;
+    width: 18rem;
+    padding: 20px;
+    left: 25px;
+}
+
+
+/*Footer*/
+
+footer {
+    background: black;
+    width: 100%;
+    padding: 20px;
+    color: white;
+    margin-top: 40px;
+}
+
+.skills {
+    padding: 40px;
+}
+
+body {
+    background-color: rgba(209, 245, 238, 0.236);
+    flex-wrap: wrap;
+    min-height: 250px;
+}
+
+.login {
+    height: 77vh;
+
+}
+
+.formulario-login {
+    margin-top: 10%;
+}
+
+.perfil {
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+
+.admin {
+    font-size: 25px;
+}
+
+.admin a:hover {
+    color: lightseagreen
+}
+
+.link {
+    text-decoration: none;
+    color: #000;
+}
+
+/*RESPONSIVE*/
+@media(max-width:900px) {}
